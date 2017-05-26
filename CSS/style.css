@@ -331,7 +331,7 @@ body {
 
 
     background-size: cover;
-    height: 1600px;
+    min-height: 1600px;
     color: white;
     font-family: Avenir;
 }
@@ -384,7 +384,7 @@ body {
 }
 
 .main2 .row {
-    height: 400px;
+    min-height: 400px;
 }
 
 .main2 img {
@@ -395,6 +395,10 @@ body {
 
 .main2 .col-md-6 {
     text-align: center!important;
+}
+
+.main2 .col-md-4 {
+    margin-left:30px;
 }
 
 .more,
