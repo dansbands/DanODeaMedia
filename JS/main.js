@@ -27,13 +27,41 @@ $(document).ready(function(){
         } // End if
     });
 
+    //scrollspy
+
     $('body').scrollspy({ target: '#navbar-example' });
+
+
+    //hide/show paragraph
+
+    $('.p2').hide();
+
+    $('.more').on('click', function(){
+        $('.p2').slideToggle(1000);
+        $('.more').hide();
+    });
+
+    $('.less').on('click', function(){
+        $('.p2').slideToggle(1000);
+        $('.more').show();
+    });
+
+
+
+
+
+
+ //animation stuff
+
 /*
 $("#professional").on('active', function () {
     $(this).toggleClass('animation-play-state');
 
 });
 */
+
+
+//attempts to make the animation work...
 
 $('#professional').scroll(function() {
     $('.grid').toggleClass('animation-play-state');

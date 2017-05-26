@@ -312,6 +312,10 @@ body {
 }
 
 
+
+
+
+
 .jumbotron{
     background: rgba(51,59,80,.98)!important;
     margin: 0!important;
@@ -321,7 +325,7 @@ body {
 
 
     background-size: cover;
-    height: 1200px;
+    height: 1600px;
     color: white;
     font-family: Avenir;
 }
@@ -333,6 +337,10 @@ body {
 
 }
 */
+
+.main2 img {
+    max-width: 380px;
+}
 
 
 .main2 h2 {
@@ -346,15 +354,14 @@ body {
     font-weight: 700;
 }
 
-.main2 a {
+.main2 .button {
     background-color: transparent;
     border: 3px solid #21d44f;
     padding: 20px;
     color: white;
-    margin-top: 60px;
 }
 
-.main2 a:hover {
+.main2 .button:hover {
     background-color: #21d44f;
     color: #333B50;
     transition: 0.5s;
@@ -384,7 +391,30 @@ body {
     text-align: center!important;
 }
 
+.more,
+.less{
 
+
+}
+
+.main2 .p1 {
+    margin-bottom: 10px!important;
+}
+
+.main2 #view {
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: #21d44f;
+}
+
+.main2 #view :hover {
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: none;
+    color: #21d44f;
+}
 
 
 
