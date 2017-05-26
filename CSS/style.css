@@ -265,6 +265,12 @@ body {
     color: #21d44f;
 }
 
+.footer2 a:focus {
+    padding: 0px;
+    background: transparent!important;
+    color: #BEC7D5;
+}
+
 .active {
     color: #21d44f;
 }
