@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="31px" viewBox="0 0 30 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Home</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Re-Design-2-14" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HIFI-3:-Workouts" transform="translate(-49.000000, -1071.000000)" fill="#FFFFFF">
+            <g id="Global-Nav" transform="translate(0.000000, 1036.000000)">
+                <g id="Icons" transform="translate(49.001000, 34.001000)">
+                    <path d="M29.368,11.466 L29.368,11.466 L16.358,1.402 C15.988,1.153 15.514,1.005 14.997,1.005 C14.484,1.005 14.008,1.153 13.64,1.402 C13.64,1.402 1.008,11.18 0.768,11.359 L0.766,11.362 C0.302,11.75 0.01,12.334 0.01,12.985 L0.01,13.602 L0.01,26.049 L0.01,28.888 C0.01,30.062 0.965,31.015 2.145,31.015 L7.871,31.015 C9.052,31.015 10.01,30.063 10.01,28.888 L10.01,21.123 C10.01,19.947 10.967,18.996 12.147,18.996 L17.85,18.996 C19.031,18.996 19.989,19.948 19.989,21.123 L19.989,28.888 C19.989,30.064 20.945,31.015 22.126,31.015 L27.852,31.015 C29.033,31.015 29.989,30.061 29.989,28.888 L29.989,26.049 L29.989,13.602 L29.989,13.117 L29.989,12.826 C29.954,12.296 29.723,11.819 29.368,11.466 L29.368,11.466 Z" id="Home"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
