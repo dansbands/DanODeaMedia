@@ -245,7 +245,7 @@ body {
     left: 0%;
 }
 
-.footer2 ul li {
+.footer2-center ul li {
     color: #7E8898;
     display: inline-block;
     padding: 0 10px;
@@ -275,6 +275,65 @@ body {
     color: #21d44f;
 }
 
+.footer2-right img {
+    margin-top: 40px;
+    margin-left: 85%;
+}
+
+
+.bottom-nav{
+    height: 10%;
+    margin-top: 90%;
+    display: block;
+    z-index: 10;
+    background-color: rgba(106,116,134,1);
+    position: fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    text-align: center;
+}
+
+.bottom-nav ul {
+    list-style: none;
+}
+
+.bottom-nav li {
+    padding: 15px 3px;
+    display: inline-block;
+    margin: 0 3%;
+
+
+}
+
+.bottom-nav img {
+    color: white;
+    height: 40px;
+}
+
+.bottom-nav a {
+    text-decoration: none;
+    color: #949EAE;
+    transition: 0.5s;
+}
+
+
+
+.bottom-nav a:hover {
+    color: lightgray;
+}
+
+.bottom-nav a:active {
+    color: #21d44f;
+}
+
+
+
+
+.wrapper {
+    height: 90%;
+}
+
 
 
 
@@ -298,9 +357,11 @@ body {
     position: absolute;
     width: 50%;
     text-align: left;
-    top: 35%;
+    /*top: 35%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
+    margin-top: 150px;
+    margin-left: 25%;
 }
 
 .main h1 {
@@ -996,12 +1057,12 @@ label {
 
 .professional2 {
     padding-top: 250px;
-    background: url(../Media/laptop-journal-book-coffee.jpg) no-repeat center center fixed;
+    background: url(../Media/laptop-journal-book-coffee.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 0px;
+    height: 250px;
     color: white;
     font-family: Arial;
 }
@@ -1051,5 +1112,50 @@ label {
 .icon {
     position: absolute;
     top: 10%;
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .footer2-center ul {
+        display: none;
+    }
+
+    .welcome {
+        width: 100%;
+    }
+
+    .welcome .container {
+        width: 80%;
+    }
+
+    .portfolio img {
+        width: 30%;
+    }
+
+
+
+
+
+    #contact {
+        width: 100%;
+    }
+
+    .contact-inner {
+        width: 100%;
+    }
+
+    .footer {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (min-width: 481px) {
+    .bottom-nav {
+        display: none;
+    }
 
 }
