@@ -1045,12 +1045,13 @@ label {
     margin-top: 90%;
     display: block;
     z-index: 10;
-    background-color: rgba(106,116,134,1);
+    background-color: rgb(51, 59, 80);
     position: fixed;
     bottom:0px;
     left:0px;
     right:0px;
     text-align: center;
+    border-top: 1px solid #7E8898;
 }
 
 .bottom-nav ul {
@@ -1060,14 +1061,14 @@ label {
 .bottom-nav li {
     padding: 15px 3px;
     display: inline-block;
-    margin: 0 2%;
+    margin: 0 4%;
 
 
 }
 
 .bottom-nav img {
     color: white;
-    height: 30px;
+    height: 25px;
 }
 
 .bottom-nav a {
@@ -1085,6 +1086,8 @@ label {
 .bottom-nav a:active {
     color: #21d44f;
 }
+
+
 
 
 
@@ -1178,14 +1181,45 @@ label {
         display: none;
     }
 
+    .main2 {
+        min-height: 2500px;
+    }
+
+    .main2 img {
+        width: 80%;
+        margin: 0 25px;
+    }
+
+    .main2 .container {
+        margin-top: 0;
+    }
+
+    .main2 .row {
+        margin-top: 50px;
+        min-height: 550px;
+        padding: 25px 0;
+    }
+
+    .main2 h2 {
+        font-size: 32px;
+    }
+
+    .main2 p {
+        margin-bottom: 30px!important;
+    }
+
+    #even {
+        background: #41495d;
+    }
+
 }
 
 
 
-}
 
 
-@media only screen and (min-width: 481px) {
+
+@media only screen and (min-width: 481px) and (orientation: portrait), (min-width: 760px) and (orientation: landscape)  {
     .bottom-nav {
         display: none;
     }
