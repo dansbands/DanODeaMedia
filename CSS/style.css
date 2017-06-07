@@ -1110,12 +1110,16 @@ label {
     }
 
     .main {
-        height: 300px;
+        height: 200px;
     }
 
+    .main h1 {
+        font-size: 40px;
+    }
 
     .main .container {
         margin-top: 60px;
+        margin-left: 15%;
     }
 
     .welcome {
@@ -1140,6 +1144,7 @@ label {
 
     .professional .center {
         margin-top: 0;
+        width: 100%;
     }
 
     .professional .container {
@@ -1147,18 +1152,42 @@ label {
 
     }
 
+    #apps{
+        width: 25%;
+    }
+
+    .grid{
+        width: 60%;
+    }
+
+    .bar.pct-95 .right{
+        width: 115%;
+    }
+
+    .bar.pct-85 .right{
+        width: 105%;
+    }
+
+    .bar.pct-75 .right{
+        width: 95%;
+    }
+
+    #scale p{
+        font-size: 12px;
+    }
 
     .title {
-        font-size: 30px;
+        font-size: 24px;
+        letter-spacing: 3px;
     }
 
     .subtitle {
-        font-size: 24px;
+        font-size: 16px;
     }
 
     .portfolio {
         padding-top: 250px;
-        height: 1200px;
+        max-height: 1300px;
     }
 
     .portfolio .container {
@@ -1179,6 +1208,10 @@ label {
 
     .contact-inner {
         width: 100%;
+    }
+
+    .column1 h1{
+        font-size: 28px;
     }
 
     .footer {
