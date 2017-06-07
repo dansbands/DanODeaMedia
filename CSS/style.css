@@ -1049,8 +1049,8 @@ label {
     margin-top: 90%;
     display: block;
     z-index: 10;
-    background-color: rgb(51, 59, 79);
-    border-top: 1px solid #7E8898;
+    background-color: #41495d;
+    border-top: 1px solid #333B50;
     position: fixed;
     bottom:0px;
     left:0px;
