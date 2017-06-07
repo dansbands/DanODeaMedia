@@ -58,6 +58,41 @@ $(document).ready(function(){
 
  //animation stuff
 
+    $.fn.isInViewport = function() {
+        var elementTop = $(this).offset().top;
+        var elementBottom = elementTop + $(this).outerHeight();
+
+        var viewportTop = $(window).scrollTop();
+        var viewportBottom = viewportTop + $(window).height();
+
+        return elementBottom > viewportTop && elementTop < viewportBottom;
+    };
+
+    $(window).on('resize scroll', function() {
+        $('#scroll').each(function() {
+            if ($('#scroll').isInViewport()) {
+                $('#skills').fadeIn(3500);
+            } else {
+                $('#skills').hide();
+
+            }
+        });
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //best so far - just doesn't show on load to Professional - needs scroll to load
 
 /*
