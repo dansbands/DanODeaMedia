@@ -1127,6 +1127,10 @@ label {
         height: 280px;
     }
 
+    .welcome h2 {
+        margin: 0;
+    }
+
     .welcome img {
         height: 50px;
         width: 50px;
