@@ -1141,6 +1141,10 @@ label {
         margin-right: 0;
     }
 
+    .welcome .btn {
+        border: #21d44f 1px solid;
+    }
+
     .professional {
         padding-top: 50px;
         height: 660px;
