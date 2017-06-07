@@ -71,7 +71,7 @@ $(document).ready(function(){
     $(window).on('resize scroll', function() {
         $('#scroll').each(function() {
             if ($('#scroll').isInViewport()) {
-                $('#skills').fadeIn(3500);
+                $('#skills').fadeIn(2500);
             } else {
                 $('#skills').hide();
 
