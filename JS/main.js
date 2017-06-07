@@ -58,6 +58,10 @@ $(document).ready(function(){
 
  //animation stuff
 
+    //best so far - just doesn't show on load to Professional - needs scroll to load
+
+/*
+
     $('#skills').hide();
 
 
@@ -72,13 +76,26 @@ $(document).ready(function(){
             $('#skills').fadeIn(3500);
             $('#skills').css('display', 'inline-block');
         }
-        if (wS < (hT+hH-wH)){
+
+        /*
+
+         if (wS < (hT+hH-wH)){
             $('#skills').fadeOut(3500);
         }
+
         if (wS > proj){
             $('#skills').fadeOut(3500);
         }
+
+
     });
+
+    $('#professional').click(function(){
+       $('#skills').fadeIn(3500);
+
+    });
+
+*/
 
 /*
 hT    1296
