@@ -52,6 +52,19 @@ $(document).ready(function(){
 
 
 
+    //hide/show descriptions
+    //needs better animation - center or rearrange img
+
+/*
+
+    $('.col-md-4').hide();
+
+    $('.col-md-6').on('click', function(){
+        $(this).next().slideToggle(1000);
+    });
+
+*/
+
 
 
 
@@ -67,10 +80,12 @@ $("#professional").on('active', function () {
 
 //attempts to make the animation work...
 
-$('#professional').scroll(function() {
-    $('.grid').toggleClass('animation-play-state');
-});
+$('.professional .center').hide();
 
+/*    .click(function() {
+    $('.inner').css('-webkit-animation-duration', '3s');
+});
+*/
 
 
 

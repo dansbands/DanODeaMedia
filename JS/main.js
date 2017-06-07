@@ -47,11 +47,76 @@ $(document).ready(function(){
     });
 
 
+    //focus for contact
 
+    $('input, .form-control').focus(function() {
+        $('input, .form-control').css('outline-color', '#21d44f');
+
+    });
 
 
 
  //animation stuff
+
+    $('#skills').hide();
+
+
+    $(window).scroll(function() {
+        var hT = $('#scroll').offset().top,
+            hH = $('#scroll').outerHeight(),
+            wH = $(window).height(),
+            wS = $(this).scrollTop(),
+            proj = 1800;
+        console.log((hT-wH) , wS);
+        if (wS > (hT+hH-wH)){
+            $('#skills').fadeIn(3500);
+            $('#skills').css('display', 'inline-block');
+        }
+        if (wS < (hT+hH-wH)){
+            $('#skills').fadeOut(3500);
+        }
+        if (wS > proj){
+            $('#skills').fadeOut(3500);
+        }
+    });
+
+/*
+hT    1296
+hH    280
+wh    775
+wS    807
+*/
+
+
+/*
+
+
+    if ( $('li#pro').hasClass('active') ) {
+        $('#skills').fadeIn(3500);
+    }
+ */
+
+
+/*
+    if ( $('li#other').hasClass('active') ) {
+    }
+*/
+
+/*
+
+    var divpos = $('#professional').offset().top;
+
+    $(window).on( 'scroll', function(){
+        if ($(window).scrollTop() >= divpos) {
+            $('#skills').fadeIn(3500);
+        } else {
+            $('#skills').hide;
+        }
+    });
+
+*/
+
+
 
 /*
 $("#professional").on('active', function () {
@@ -63,10 +128,20 @@ $("#professional").on('active', function () {
 
 //attempts to make the animation work...
 
-$('#professional').scroll(function() {
+
+//this one works best so far, might not work on mobile
+/*
+    $('.professional').mouseenter(function() {
+        $('.inner').css('-webkit-animation-duration', '5s');
+    });
+*/
+
+
+/*
+$('.professional .center').scroll(function() {
     $('.grid').toggleClass('animation-play-state');
 });
-
+*/
 
 
 

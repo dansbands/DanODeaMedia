@@ -58,6 +58,11 @@ html {
     font-family:Avenir;
 }
 
+/*
+#scroll {
+    display: none;
+}
+*/
 
 .wrapper {
     height: 90%;
@@ -505,7 +510,6 @@ html {
 
 .professional .center {
     display: inline-block;
-    clear: right;
     height: 280px;
     width: 80%;
     font-family:Avenir;
