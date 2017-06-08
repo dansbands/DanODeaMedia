@@ -986,7 +986,7 @@ label {
 
 .professional2 {
     padding-top: 250px;
-    background: url(../Media/laptop-journal-book-coffee.jpg) no-repeat center center;
+    background: url(../Media/laptop-journal-book-coffee.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1095,7 +1095,7 @@ label {
 
 
 
-
+/*Media Query - Mobile*/
 
 @media only screen and (max-width: 480px), (max-width: 760px) and (orientation: landscape) {
 
@@ -1266,14 +1266,198 @@ label {
 
 }
 
+/*Media Query - Tablet*/
+
+@media only screen and (min-width: 450px) and (max-width: 780px) and (orientation: portrait), (min-width: 700px) and (max-width: 1040px) and (orientation: landscape) {
+
+
+    .footer2 {
+    }
+
+
+    .footer2-center ul {
+        display: none;
+    }
+
+    .main {
+        height: 450px;
+    }
+
+    .main h1 {
+       /*  font-size: 40px;  */
+    }
+
+    .main .container {
+        margin-top: 160px;
+        margin-left: 25%;
+    }
+
+    .welcome {
+        margin-top: 150px;
+
+    }
+
+    .welcome h2 {
+      /*  margin: 0; */
+    }
+
+    .welcome img {
+      /*  height: 50px;
+        width: 50px;*/
+    }
+
+    .welcome .container {
+        width: 300px;
+        margin-right: 0;
+    }
+
+    .welcome .btn {
+        border: #21d44f 1px solid;
+    }
+
+    .professional {
+        padding-top: 50px;
+        height: 1200px;
+    }
+
+    #professional{
+        margin-top: 200px;
+    }
+
+    .professional .center {
+        width: 100%;
+    }
+
+    .professional .container {
+        top: 40%;
+
+    }
+
+    #apps{
+        width: 20%;
+        font-size: 20px;
+    }
+
+    .grid{
+        width: 60%;
+    }
+
+    .bar {
+        height: 18px;
+        margin-bottom: 24px;
+    }
+/*
+    .bar.pct-95 .right{
+        width: 115%;
+    }
+
+    .bar.pct-85 .right{
+        width: 105%;
+    }
+
+    .bar.pct-75 .right{
+        width: 95%;
+    }
+
+    #scale p{
+      /*  font-size: 12px;
+    }
+    */
+
+    .title {
+      /*  font-size: 24px;
+        letter-spacing: 3px;  */
+    }
+
+    .subtitle {
+       /* font-size: 16px; */
+    }
+
+    .portfolio {
+        padding-top: 250px;
+        height: 1600px;
+    }
+
+    .portfolio .container {
+        top: 10%;
+
+    }
+
+    .portfolio img {
+        width: 65%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    #contact {
+        width: 80%;
+        height: 700px;
+    }
+
+    .column2 .btn {
+        border: #21d44f 1px solid;
+    }
+
+    .professional2 {
+        height: 500px;
+    }
+
+    .contact-inner {
+        width: 100%;
+        margin: 150px 0;
+    }
+
+    .column1 h1{
+        font-size: 28px;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .main2 {
+        min-height: 2500px;
+    }
+
+    .main2 img {
+        width: 80%;
+        margin: 0 25px;
+    }
+
+    .main2 .container {
+        margin-top: 0;
+    }
+
+    .main2 .row {
+        margin-top: 50px;
+        min-height: 550px;
+        padding: 25px 0;
+    }
+
+    .main2 h2 {
+        font-size: 32px;
+    }
+
+    .main2 p {
+        margin-bottom: 30px!important;
+    }
+
+    #even {
+        background: #41495d;
+    }
+
+}
 
 
 
 
-
-@media only screen and (min-width: 481px) and (orientation: portrait), (min-width: 760px) and (orientation: landscape)  {
+@media not handheld and (min-width: 800px) and (orientation: portrait), (min-width: 1040px) and (orientation: landscape)  {
     .bottom-nav {
         display: none;
+    }
+
+    .footer2 ul {
+        display: inline-block;
     }
 
 }

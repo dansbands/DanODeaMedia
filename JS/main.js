@@ -56,7 +56,7 @@ $(document).ready(function(){
 
 
 
- //animation stuff
+ //animation - professional
 
     $.fn.isInViewport = function() {
         var elementTop = $(this).offset().top;
@@ -80,12 +80,25 @@ $(document).ready(function(){
     });
 
 
+  //animation - welcome
 
 
+    $('#welcome').hide();
+
+    $('#welcome').fadeIn(1500);
+
+    $('#strive').hide();
+
+    $('#strive').delay(500).fadeIn(3500);
+
+    $('#look').hide();
+
+    $('#look').delay(1000).fadeIn(5500);
 
 
-
-
+    //animation title
+    $('.main .container').hide();
+    $('.main .container').slideDown( 3000 ).delay( 800 ).fadeIn( 400 );
 
 
 
