@@ -202,11 +202,16 @@ html {
     display: inline-block;
     height: 50px;
     width: 50%;
-    top: 50%;
-    left: 50%;
     position: absolute;
-    transform: translate(-50%, -50%);
     font-family: Avenir;
+
+/*    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+
+    margin-top: 25px;
+    margin-left: 25%;
+
 
 }
 
@@ -229,18 +234,21 @@ html {
     transform: translateX(0%)translateY(-50%);
     top: 50%;
     left: 0%;
+    text-align: left;
 }
 
 .footer2-center ul li {
     color: #7E8898;
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 20px 0 0;
+    text-align: left;
 }
 
 .footer2 a {
     text-decoration: none;
     color: #949EAE;
     transition: 0.5s;
+    margin: 0 20px 0 0;
 }
 
 .footer2 a:hover {
@@ -290,7 +298,7 @@ html {
     /*top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);*/
-    margin-top: 150px;
+    margin-top: 120px;
     margin-left: 25%;
 }
 
@@ -429,18 +437,22 @@ html {
     color: white;
     height: 400px;
     width: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -85%);
+/*    top: 50%;*/
+ /*   left: 50%; */
+/*    transform: translate(-50%, -85%);*/
+
+    margin: -370px 25% 0;
 }
 
 .welcome .container {
     position: relative;
     width: 50%;
     text-align: center;
-    top: 45%;
+    /*top: 45%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
+    margin-left: 25%;
+    margin-top: 5%;
 
 }
 
@@ -1125,6 +1137,7 @@ label {
     .welcome {
         width: 100%;
         height: 280px;
+        margin: -240px 0 0 0;
     }
 
     .welcome h2 {
@@ -1137,8 +1150,9 @@ label {
     }
 
     .welcome .container {
-        width: 300px;
-        margin-right: 0;
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
     }
 
     .welcome .btn {
@@ -1288,12 +1302,12 @@ label {
     }
 
     .main .container {
-        margin-top: 160px;
+        margin-top: 140px;
         margin-left: 25%;
     }
 
     .welcome {
-        margin-top: 150px;
+        margin-top: -230px;
 
     }
 
@@ -1307,8 +1321,8 @@ label {
     }
 
     .welcome .container {
-        width: 300px;
-        margin-right: 0;
+        width: 90%;
+        margin: 10% 5% 0 5%;
     }
 
     .welcome .btn {

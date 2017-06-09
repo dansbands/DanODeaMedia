@@ -80,25 +80,42 @@ $(document).ready(function(){
     });
 
 
+    //animation title
+    $('.main .container').hide();
+    $('.main .container').slideDown( 2500 ).delay( 800 ).fadeIn( 400 );
+
+    $('.footer2-center').hide().delay(2500).show('blind', {direction: 'horizontal'}, 1500,);
+
   //animation - welcome
 
+    $('.welcome').css('right','-100%');
 
+    $('.welcome').delay(3000).animate({right: "+=100%"}, {duration:3000});
+
+    $('#welcome').hide().delay(6000).show('blind', 1500, 'swing');
+
+
+
+
+
+
+   /*
     $('#welcome').hide();
 
-    $('#welcome').fadeIn(1500);
+    $('#welcome').delay(6000).fadeIn(1500);
 
     $('#strive').hide();
 
-    $('#strive').delay(500).fadeIn(3500);
+    $('#strive').delay(6500).fadeIn(3500);
 
     $('#look').hide();
 
-    $('#look').delay(1000).fadeIn(5500);
+    $('#look').delay(7000).fadeIn(5500);
+
+    $('.welcome .btn').hide().delay(7500).fadeIn(5500);
+*/
 
 
-    //animation title
-    $('.main .container').hide();
-    $('.main .container').slideDown( 3000 ).delay( 800 ).fadeIn( 400 );
 
 
 
