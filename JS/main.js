@@ -71,7 +71,7 @@ $(document).ready(function(){
     $(window).on('resize scroll', function() {
         $('#scroll').each(function() {
             if ($('#scroll').isInViewport()) {
-                $('#skills').fadeIn(2500);
+                $('#skills').fadeIn(2000);
             } else {
                 $('#skills').hide();
 
@@ -81,22 +81,20 @@ $(document).ready(function(){
 
 
     //animation title
-    $('.main .container').hide();
-    $('.main .container').slideDown( 2500 ).delay( 800 ).fadeIn( 400 );
+    $('.main .container').hide().slideDown( 2500 ).delay( 800 ).fadeIn( 400 );
 
-    $('.footer2-center').hide().delay(2500).show('blind', {direction: 'horizontal'}, 1500,);
+    $('.footer2-center').hide().delay(2500).show('blind', {direction: 'horizontal'}, 1500);
 
   //animation - welcome
 
-    $('.welcome').css('right','-100%');
 
-    $('.welcome').delay(3000).animate({right: "+=100%"}, {duration:3000});
+    $('.welcome').css('right','-100%').delay(3000).animate({right: "+=100%"}, {duration:3000});
 
     $('#welcome').hide().delay(6000).show('blind', 1500, 'swing');
 
 
 
-
+});
 
 
    /*
@@ -227,4 +225,3 @@ $('.professional .center').scroll(function() {
 
 
 
-});
