@@ -47,7 +47,9 @@ $(document).ready(function(){
 
     $('.less-1').on('click', function(){
         $('.p2-1').slideToggle(1000);
-        $('.more-1').show();
+        setTimeout(() => {
+          $('.more-1').show();
+        }, 1000)
     });
 
 
@@ -60,7 +62,9 @@ $(document).ready(function(){
 
     $('.less-2').on('click', function(){
         $('.p2-2').slideToggle(1000);
-        $('.more-2').show();
+        setTimeout(() => {
+          $('.more-2').show();
+        }, 1000)
     });
 
 
@@ -73,7 +77,9 @@ $(document).ready(function(){
 
     $('.less-3').on('click', function(){
         $('.p2-3').slideToggle(1000);
-        $('.more-3').show();
+        setTimeout(() => {
+          $('.more-3').show();
+        }, 1000)
     });
 
 
@@ -86,7 +92,9 @@ $(document).ready(function(){
 
     $('.less-4').on('click', function(){
         $('.p2-4').slideToggle(1000);
-        $('.more-4').show();
+        setTimeout(() => {
+          $('.more-4').show();
+        }, 1000)
     });
 
 
